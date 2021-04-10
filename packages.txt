@@ -1,0 +1,55 @@
+### Global
+
+
+npm i express
+
+nodemon concurrently
+npm i -D nodemon concurrently
+
+mongoose
+npm i mongoose 
+
+dotenv for environment variable, which can access with process.env.var_name and .env file should be in root directory. 
+npm i dotenv
+
+colors
+npm i colors
+
+bcryptjs
+npm i bcryptjs
+
+
+
+### frontend
+
+
+
+
+npx create-react-app frontend
+npm install react-bootstrap
+
+If I want to use react-bootstrap then we need to install this npm package. Here we only install react-bootstrap
+npm install react-bootstrap bootstrap
+
+But for this project I am using Bootswatch. Now I want to use lux theme from bootswatch. We need to download lux theme bootstrap.min.css file and copy-pest this file to src directory. Then import this file in index.js file.
+import './bootstrap.min.css'
+
+Add font awsome
+https://cdnjs.com/libraries/font-awesome
+go to this link then select all.min.css file. copy this tag and pest it into public/index.html file
+
+react-router-dom and react-router-bootstrap
+npm i react-router-dom react-router-bootstrap
+
+axios
+npm i axios
+
+install all these things for redux store design
+npm i redux react-redux redux-thunk redux-devtools-extension
+
+redux for redux store
+react-redux for combine react with redux
+redux-thunk for asyncronous operation which can communicate with backend server
+redux-devtools-extension is for chrome redux devtools communication
+
+
